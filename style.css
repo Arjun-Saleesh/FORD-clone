@@ -1,0 +1,173 @@
+/* General reset and styling for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Background color for contrast */
+  }
+  
+  /* Navbar container styling */
+  nav {
+
+    /* background-color: transparent; */
+    background-color: white;
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Change navbar background color on hover */
+  nav:hover {
+    background-color: white;
+  }
+  
+  /* Div inside navbar styling */
+  nav .navlist {
+    display: flex;
+    
+    align-items: center;
+    height: 60px; /* Adjust height as needed */
+  }
+  
+  /* Links (a) styling */
+  nav .navlist li {
+    color:black; /* Default link color */
+    text-decoration: none;
+    list-style-type: none;
+    padding: 14px 20px;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Change link color when navbar is hovered */
+  nav:hover .navlist li {
+    color: blue; /* Change link color when navbar is hovered */
+    text-decoration: none;
+  }
+ .navlist img{
+    inline-size: 100px;
+    margin-left: 340px;
+  
+
+  }
+  nav .icons{
+    margin-left: 540px;
+   
+  }
+  .banner{
+    display: flex;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .bannertext{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 55px;
+    font-size:50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+   .button1 {
+    background-color: white; /* Green */
+  border: none;
+  border-radius: 25px;
+  
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+    
+    
+  }
+  .button1:hover {
+    background-color:rgb(203, 199, 199); 
+    color: white;
+  }
+
+  .discription{
+    margin-left: 150px;
+  }
+  .discription h2{
+    margin-top: 30px;
+  }
+  .slide{
+    padding: 15px;
+  }
+  .drivegirl{
+    height: 600px;
+    width: 100%;
+  }
+  .hands-free h4{
+    font-size: 50px;
+    color: white;
+    margin-left: 55px;
+  }
+  .hands-free h6{
+    color: white;
+    margin-left: 55px;
+  }
+  .container3 h3{
+    color: white;
+  }
+  .container3 h6{
+    color: white;
+  }
+.Thrilling h1{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.container4 .row{
+  margin-left: 10px;
+}
+.container4 .col-4 img{
+ width: 450px;
+ border-radius: 5px;
+}
+.container4 .mus{
+  display: flex;
+}
+.container4 .details {
+
+position:relative;
+}
+.container4 a{
+  margin-top: 55px;
+  
+}
+
+.containerr{
+  margin-left: 70px;
+  
+}
+.containerr a{
+  text-decoration: none;
+}
+
+
+/* 
+ */
+ .carousel-inner button {
+  background-color: white; /* Green */
+  border: none;
+  border-radius: 25px;
+  
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -1000px;
+}
+
+.carousel-inner h1{
+  margin-left: -990px;
+  margin-bottom: 55px;
+}
